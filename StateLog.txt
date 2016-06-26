@@ -1,0 +1,2 @@
+Logger started at 26-Jun-16 8:15:27 AM
+Saving: interval00:05:54 at 8:22 AM 08:22:50.6566777
