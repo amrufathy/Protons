@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackSession", "ProtonsRepo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassSyntax", "ClassSyntax\ClassSyntax.csproj", "{CF1B14BC-342A-486C-9F39-2936E88D1FAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariablesLoops", "VariablesLoops\VariablesLoops.csproj", "{ABB08116-4BA2-4CBA-B112-C91437E624D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Geometry\Geometry.csproj", "{E97329F2-1200-484C-B736-970BEB303329}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{CF1B14BC-342A-486C-9F39-2936E88D1FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF1B14BC-342A-486C-9F39-2936E88D1FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF1B14BC-342A-486C-9F39-2936E88D1FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABB08116-4BA2-4CBA-B112-C91437E624D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB08116-4BA2-4CBA-B112-C91437E624D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB08116-4BA2-4CBA-B112-C91437E624D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB08116-4BA2-4CBA-B112-C91437E624D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E97329F2-1200-484C-B736-970BEB303329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E97329F2-1200-484C-B736-970BEB303329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E97329F2-1200-484C-B736-970BEB303329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E97329F2-1200-484C-B736-970BEB303329}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
