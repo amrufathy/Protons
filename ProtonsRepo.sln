@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariablesLoops", "Variables
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Geometry\Geometry.csproj", "{E97329F2-1200-484C-B736-970BEB303329}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloGui", "HelloGui\HelloGui.csproj", "{9BE5BB1F-29E8-4B82-810B-D4E97796C294}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{E97329F2-1200-484C-B736-970BEB303329}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E97329F2-1200-484C-B736-970BEB303329}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E97329F2-1200-484C-B736-970BEB303329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BE5BB1F-29E8-4B82-810B-D4E97796C294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BE5BB1F-29E8-4B82-810B-D4E97796C294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BE5BB1F-29E8-4B82-810B-D4E97796C294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE5BB1F-29E8-4B82-810B-D4E97796C294}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
