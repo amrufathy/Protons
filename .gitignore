@@ -244,3 +244,7 @@ ModelManifest.xml
 # FAKE - F# Make
 .fake/
 *.txt
+
+# Custom directories
+bin/
+obj/
