@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Searching
 {
-    class Program
+    internal class Program
     {
         /* binary search algorithm (iterative implementation)
          * search for a number in an array
@@ -14,7 +10,8 @@ namespace Searching
          * returns -1 if number not found
          * takes O(log n) time
          */
-        static int BinarySearch(int[] array, int target)
+
+        private static int BinarySearch(int[] array, int target)
         {
             // use BigInteger or double if necessary
             int low = 0;
@@ -40,7 +37,8 @@ namespace Searching
          * returns -1 if number not found
          * takes O(log n) time
          */
-        static int BinarySearch(int[] array, int target, int low, int high)
+
+        private static int BinarySearch(int[] array, int target, int low, int high)
         {
             // use BigInteger or double if necessary
             if (low < high)
@@ -64,7 +62,8 @@ namespace Searching
          * returns -1 if number not found
          * takes O(n) time
          */
-        static int linearSearch(int[] array, int target)
+
+        private static int linearSearch(int[] array, int target)
         {
             int length = array.Length;
             for (int i = 0; i < length; i++)
@@ -82,9 +81,9 @@ namespace Searching
          * ex: Math.Abs(target - array[index]) < 0.00001
          */
 
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            int[] array = {1, 2, 3, 4};
+            int[] array = { 1, 2, 3, 4 };
             int target = 5;
             int index = BinarySearch(array, target);
             // int index = BinarySearch(array, target, 0, array.Length);

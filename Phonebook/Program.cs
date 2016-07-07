@@ -1,20 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace Phonebook
 {
-    class Program
+    internal class Program
     {
-
         /*
          * Amr Fathy's Solution to the phonebook project
          * Please note that this is merely how I thought about the problem
-         * 
+         *
          * The searching algorithm is linear search which takes O(n) time
          * The sorting algorithm is selection sort which takes O(n^2) time
          */
@@ -42,7 +38,7 @@ namespace Phonebook
         private static List<Subscriber> allSubscribers = new List<Subscriber>();
         private static bool sortByFirstName = true;
 
-        #endregion
+        #endregion application declarations
 
         public static void Main(string[] args)
         {
@@ -163,7 +159,7 @@ namespace Phonebook
             /* this function reads the address from the user
              * the input string is parsed and each field is populated
              * accordingly.
-             */ 
+             */
             if (input == null || input.Length == 0)
             {
                 return new Address();
@@ -597,6 +593,6 @@ namespace Phonebook
             Environment.Exit(0);
         }
 
-        #endregion
+        #endregion application logic
     }
 }

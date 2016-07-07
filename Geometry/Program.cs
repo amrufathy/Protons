@@ -11,7 +11,7 @@ namespace Geometry
 
             Console.WriteLine(p.Distance(otherP));
 
-            p.MoveTo(5,78);
+            p.MoveTo(5, 78);
             Console.WriteLine(p.TransformToString());
 
             Console.ReadKey();

@@ -14,7 +14,7 @@ namespace HelloGui
 
         private void HelloButton_MouseClickHandler(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Hello!","Greetings");
+            MessageBox.Show("Hello!", "Greetings");
         }
     }
 }

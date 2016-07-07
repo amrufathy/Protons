@@ -27,6 +27,5 @@
         }
 
         public string MyAutomaticProperty { get; set; }
-
     }
 }
