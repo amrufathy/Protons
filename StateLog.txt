@@ -1,8 +1,0 @@
-Logger started at 26-Jun-16 8:15:27 AM
-Saving: interval00:05:54 at 8:22 AM 08:22:50.6566777
-Saving: interval00:05:30 at 8:32 AM 08:32:50.6602719
-Last: 00:11:25 08:32:50.6602719
-Saving: interval00:00:20 at 8:34 AM 08:34:54.2733300
-Last: 00:11:45 08:34:54.2733300
-Saving: interval00:00:00 at 8:36 AM 08:36:20.4482234
-Last: 00:11:45 08:36:20.4482234
