@@ -1,7 +1,7 @@
 class Queue:
     """
-    Remember how the queue works, we can only add or
-        remove an item (object) from the front of the queue.
+    Remember how the queue works, we can only add an item to the end of the queue
+        or remove an item (object) from the front of the queue.
 
     Queue is called a FIFO data structure.
         (First in First out)
@@ -18,7 +18,7 @@ class Queue:
 
     def enqueue(self, item):
         """
-        Enqueue (Insert) item to front of the queue.
+        Enqueue (Insert) item to end of the queue.
 
         :param item: Item to be added.
         """
@@ -44,7 +44,7 @@ class Queue:
 
     def peek(self):
         """
-        Returns item from the front of the queue, WITHOUT removing it.
+        Returns item at the front of the queue, WITHOUT removing it.
 
         -- peek() works like pop(), it returns the front of the queue.
             The difference is pop() deletes the item from the queue while peek() doesn't.
