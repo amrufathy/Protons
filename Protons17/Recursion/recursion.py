@@ -50,7 +50,7 @@ def fibonacci_rec(n):
 # recursive with dynamic programming (save previous results)
 fib = [0, 1]
 def fibonacci_dp(n):
-    if n > len(fib):
+    if n >= len(fib):
         fib.append(fibonacci_dp(n - 1) + fibonacci_dp(n - 2))
 
     return fib[n]
@@ -97,8 +97,8 @@ def binary_search_rec(array, target, low, high):
 def test_binary_search():
     array = list(range(0, 10))
     target = 15
-    print(binary_search_iter(array, target))
-    print(binary_search_rec(array, target, 0, len(array)))
+    print('Iterative: ', binary_search_iter(array, target))
+    print('Recursive: ', binary_search_rec(array, target, 0, len(array)))
 
 
 """
